@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function Container({ children, ...customMeta }) {
@@ -44,7 +43,6 @@ export default function Container({ children, ...customMeta }) {
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
         <div>{children}</div>
-        <Footer />
       </main>
     </>
   );
