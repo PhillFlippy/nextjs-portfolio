@@ -32,7 +32,7 @@ export default function AboutMe() {
                 >
                   mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I&apos;ll get back. I swear.
               </div>
             </div>
             {/* Social Links */}
