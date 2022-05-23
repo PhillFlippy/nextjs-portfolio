@@ -1,10 +1,22 @@
 import { useState, useEffect } from "react";
-import Snowfall from 'react-snowfall'
+import Snowfall from "react-snowfall";
 
 export default function Hero() {
   const [typesIndex, setTypes] = useState(0);
 
-  const devTypes = ["Full Stack", "React", "Typescript", "Javascript", ".Net", "Node", "AWS", "Vue", "React Native", "Cordova", "Agile"];
+  const devTypes = [
+    "Full Stack",
+    "React",
+    "Typescript",
+    "Javascript",
+    ".Net",
+    "Node",
+    "AWS",
+    "Vue",
+    "React Native",
+    "Cordova",
+    "Agile",
+  ];
   useEffect(() => {
     let typeInterval = setInterval(() => {
       if (devTypes.length - 1 === typesIndex) {
@@ -19,19 +31,26 @@ export default function Hero() {
   }, [typesIndex]);
 
   return (
-      <>
- <Snowfall />
-    <div className="flex flex-row justify-center items-start overflow-hidden">
-      <div className="w-full fill-screen m-auto md:w-1/2 mx-auto text-center md:text-left lg:p-20">
-        <div>
-          <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-          {devTypes[typesIndex]} Developer.
-          </h1>
-       
-
+    <>
+      <div className="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className="flex flex-row justify-center items-start overflow-hidden">
+        <div className="w-full fill-screen m-auto md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+          <div>
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
+              {devTypes[typesIndex]} Developer.
+            </h1>
+          </div>
         </div>
       </div>
-    </div>
-        </>
+    </>
   );
 }

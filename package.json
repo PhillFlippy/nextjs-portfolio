@@ -18,7 +18,8 @@
     "react-dom": "18.1.0",
     "react-particle-animation": "^2.0.2",
     "react-particles-js": "^3.6.0",
-    "react-snowfall": "^1.1.2"
+    "react-snowfall": "^1.1.2",
+    "vanta": "^0.5.22"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
