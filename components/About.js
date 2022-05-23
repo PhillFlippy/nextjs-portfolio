@@ -1,12 +1,12 @@
 export default function AboutMe() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section className="bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           About Me.
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+      <div className="bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <div
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
@@ -16,7 +16,7 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+      <div className="bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
@@ -58,7 +58,7 @@ export default function AboutMe() {
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                  <div className="text-lg  font-mono relative overflow-hidden text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     GitHub
                   </div>
@@ -110,67 +110,65 @@ export default function AboutMe() {
               chance to mentor more junior developers.
               <br />
               <br />
-              My primary stack is React front end with a .Net backend but I have worked with a lot of different programming languages and I have become
-              pretty good at picking up new ones, so I am pretty comfortable with learning
-              something new for the project.
+              My primary stack is React front end with a .Net backend but I have
+              worked with a lot of different programming languages and I have
+              become pretty good at picking up new ones, so I am pretty
+              comfortable with learning something new for the project.
             </div>
-
-            <h1 className="background-gray-50 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
-              Tech Stack
-            </h1>
-            <div className="flex flex-row flex-wrap mt-8 background-white">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />{" "}
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />{" "}
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
+            <div className="bg-gray-700 rounded-lg my-16">
+              <h1 className="text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 my-3 mt-8">
+                Tech Stack
+              </h1>
+              <div className="flex flex-row flex-wrap mt-8">
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg"
+                  className="h-20 w-20 mx-4 my-4"
+                />{" "}
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                  className="h-20 w-20 mx-4 my-4"
+                />{" "}
+              </div>
             </div>
           </div>
         </div>
