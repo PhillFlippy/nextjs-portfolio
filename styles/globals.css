@@ -15,7 +15,7 @@ body {
   --foreground: black;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --background: black;
   --foreground: white;
 }
@@ -23,7 +23,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.fill-screen{
+.fill-screen {
   height: 75vh;
 }
 * {
@@ -31,7 +31,7 @@ a {
 }
 @keyframes move {
   100% {
-      transform: translate3d(0, 0, 1px) rotate(360deg);
+    transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
 
@@ -59,9 +59,8 @@ a {
   animation-iteration-count: infinite;
 }
 
-
 .background span:nth-child(0) {
-  color: #FFACAC;
+  color: #ffacac;
   top: 28%;
   left: 40%;
   animation-duration: 9s;
@@ -70,7 +69,7 @@ a {
   box-shadow: 44vmin 0 5.599132611345946vmin currentColor;
 }
 .background span:nth-child(1) {
-  color: #583C87;
+  color: #583c87;
   top: 85%;
   left: 60%;
   animation-duration: 15s;
@@ -79,7 +78,7 @@ a {
   box-shadow: -44vmin 0 6.159902135259143vmin currentColor;
 }
 .background span:nth-child(2) {
-  color: #583C87;
+  color: #583c87;
   top: 22%;
   left: 57%;
   animation-duration: 35s;
@@ -88,7 +87,7 @@ a {
   box-shadow: -44vmin 0 6.091514873219529vmin currentColor;
 }
 .background span:nth-child(3) {
-  color: #E45A84;
+  color: #e45a84;
   top: 55%;
   left: 84%;
   animation-duration: 33s;
@@ -97,7 +96,7 @@ a {
   box-shadow: -44vmin 0 5.893247428987438vmin currentColor;
 }
 .background span:nth-child(4) {
-  color: #FFACAC;
+  color: #ffacac;
   top: 49%;
   left: 74%;
   animation-duration: 25s;
@@ -106,7 +105,7 @@ a {
   box-shadow: 44vmin 0 5.913194663334006vmin currentColor;
 }
 .background span:nth-child(5) {
-  color: #E45A84;
+  color: #e45a84;
   top: 36%;
   left: 98%;
   animation-duration: 19s;
@@ -115,7 +114,7 @@ a {
   box-shadow: 44vmin 0 5.984924175993959vmin currentColor;
 }
 .background span:nth-child(6) {
-  color: #583C87;
+  color: #583c87;
   top: 17%;
   left: 1%;
   animation-duration: 24s;
@@ -124,7 +123,7 @@ a {
   box-shadow: -44vmin 0 6.355490757930223vmin currentColor;
 }
 .background span:nth-child(7) {
-  color: #E45A84;
+  color: #e45a84;
   top: 46%;
   left: 26%;
   animation-duration: 22s;
@@ -133,12 +132,12 @@ a {
   box-shadow: 44vmin 0 5.945325661676923vmin currentColor;
 }
 @media only screen and (max-width: 900px) {
-  .text-center {
+  .heading-margin-top {
     margin-top: 25%;
-}
+  }
 }
 @media only screen and (max-width: 600px) {
-    .text-center {
-      margin-top: 25%;
+  .heading-margin-top {
+    margin-top: 25%;
   }
 }

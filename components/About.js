@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section className="bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-5xl md:text-9xl font-bold py-20 heading-margin-top md:text-left">
           About Me.
         </h1>
       </div>
@@ -116,10 +116,10 @@ export default function AboutMe() {
               comfortable with learning something new for the project.
             </div>
             <div className="bg-gray-700 rounded-lg my-16">
-              <h1 className="text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 my-3 mt-8">
+              <h1 className="text-3xl text-center rounded-md px-2 py-1 inline-block font-bold text-gray-50 my-3 mt-8">
                 Tech Stack
               </h1>
-              <div className="flex flex-row flex-wrap mt-8">
+              <div className="flex flex-row flex-wrap mt-8 justify-center pb-16">
                 <img
                   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                   className="h-20 w-20 mx-4 my-4"
