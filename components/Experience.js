@@ -1,13 +1,10 @@
 import experience from "../data/experience";
-export default function Experience() {
-   
+import Heading from "./Heading";
+
+const Experience = () => {
   return (
     <section className="bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 heading-margin-top md:text-left">
-          Experience.
-        </h1>
-      </div>
+      <Heading>Experience.</Heading>
       <div className="bg-gray-900 -mt-4">
         <div className="grid grid-cols-1 bg-gray-900 max-w-xl mx-auto pt-20">
           {experience.map((exp, idx) => (
@@ -34,7 +31,7 @@ export default function Experience() {
       </div>
     </section>
   );
-}
+};
 
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
   return (
@@ -50,3 +47,5 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
     </div>
   );
 };
+
+export default Experience;

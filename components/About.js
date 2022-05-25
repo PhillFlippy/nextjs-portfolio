@@ -1,11 +1,9 @@
-export default function AboutMe() {
+import Heading from "./Heading";
+
+const About = () =>  {
   return (
     <section className="bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 heading-margin-top md:text-left">
-          About Me.
-        </h1>
-      </div>
+      <Heading>About Me.</Heading>
       <div className="bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <div
@@ -176,3 +174,5 @@ export default function AboutMe() {
     </section>
   );
 }
+
+export default About;
