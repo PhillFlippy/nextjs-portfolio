@@ -44,9 +44,16 @@ const Contact = () => {
                 className="form rounded-lg bg-white p-4 flex flex-col"
                 method="POST"
                 name="contact-form"
-                action="contact/?success=true"
+                action="contact?success=true"
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
               >
+                <input type="hidden" name="form-name" value="contact-form" />
+                <p hidden>
+                  <label>
+                    Don’t fill this out: <input name="bot-field" />
+                  </label>
+                </p>
                 <label htmlFor="name" className="text-sm text-gray-600 mx-4">
                   {" "}
                   Your Name
